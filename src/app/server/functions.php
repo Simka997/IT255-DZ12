@@ -1,5 +1,5 @@
 <?php
-include("config.php");
+include("konektujMe.php");
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     die();
