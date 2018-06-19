@@ -29,7 +29,7 @@ export class DodavanjeCvecaComponent implements OnInit {
       
           if(data["_body"].indexOf("error") === -1){
             alert("Uspesno dodavanje cveta");
-            this._router.navigateByUrl('pretraga');
+            this._router.navigateByUrl('dodavanjeCveca');
           }else{
             alert("Neuspesno dodavanje cveta");
           }
